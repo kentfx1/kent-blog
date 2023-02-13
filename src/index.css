@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+*{
+  margin:0;
+  font-family: "Quicksand";
+  color:#333;
+}
+
+.navbar{
+  padding:20px;
+  display:flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #bebebe;
+}
+.navbar h1{
+  color: #f1356d;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  transition: 0.7s;
+ 
+}
+.navbar a:hover{
+  background-color: #f1356d;
+  color: white;
+  border-radius: 5px;
+  
+}
+.form{
+  text-align: center;
+  width: 350px;
+  height: 500;
+  position: relative;
+  left: 400px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(251, 249, 249, 0.357);
+  
+}
+input{
+  width: 200px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: inset 4px 4px 30px rgba(101, 101, 101, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+}
+.Submit{
+  background-color: rgb(255, 113, 137);
+  cursor: pointer;
+  border: none;
+  box-shadow: 14px 14px 20px #ffffff, -14px -14px 20px white;
+  color: white;
+}
+.Submit:hover{
+  color: white;
+  background-color: #f1356d;
+
+}
+h2{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+}
+.blog{
+  background-color: #f1356d;
+  color: white;
+  border-radius: 5px;
+}
+.blog:hover{
+  font-size: 16.8px;
+}
+.content img{
+  width: 500px;
+  height: 400px;
+  float: right;
+}
+.home h1{
+  font-size: 50px;
+  padding-left: 50px;
+}
+.content h3{
+  padding-left: 60px;
+}
